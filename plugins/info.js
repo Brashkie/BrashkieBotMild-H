@@ -119,7 +119,7 @@ let codigo = `termux-setup-storage
 apt update
 apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
-git clone https://github.com/GataNina-Li/GataBotLite-MD 
+git clone https://github.com/Brashkie/BrashkieBotMild-H 
 cd GataBotLite-MD
 yarn install
 npm install
@@ -129,14 +129,14 @@ heroku/nodejs\n
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git\n
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git`
 let codigo3 = `
-git clone https://github.com/GataNina-Li/GataBotLite-MD
+git clone https://github.com/Brashkie/BrashkieBotMild-H
 cd GataBotLite-MD
 npm install
 npm update
 node .`
 try{	
 let termux = `*◎ T E R M U X*\n\n${codigo}`
-let replit = `*◎ R E P L I T*\n\nhttps://replit.com/github/GataNina-Li/GataBotLite-MD`
+let replit = `*◎ R E P L I T*\n\nhttps://github.com/Brashkie/BrashkieBotMild-H`
 let heroku = `*◎ H E R O K U*\n\nhttps://heroku.com/deploy?template=https://github.com/GataNina-Li/GataBotMDLite-Heroku`
 let windows = `*◎ W I N D O W S / V P S / R D P*\n
 ⎔ _Git_
