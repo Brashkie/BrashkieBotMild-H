@@ -438,9 +438,9 @@ let menu = `*◈ ${user.registered === true ? user.name : `👉 ${usedPrefix}${l
 *│* ╰∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙ ∙ ∙ ∙ ∙
  `.trim()
     
-const vi = ['https://telegra.ph/file/405daebd4bc0d69e5d165.mp4',
-'https://telegra.ph/file/1d0ad9f79f65f39895b08.mp4',
-'https://telegra.ph/file/c25afc1685b13210ce602.mp4']
+const vi = ['https://telegra.ph/file/578261f3a5c1820d753c0.mp4',
+'https://telegra.ph/file/fb6797f20e3c14312a6ed.mp4',
+'https://telegra.ph/file/f6379d1afb78a2b371e3e.mp4']
 
 try {
 await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak }) 
